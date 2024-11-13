@@ -13,5 +13,3 @@ public class EmailApplication {
 	}
 
 }
-
-WorkDir -> Staging -> Commit -> push
