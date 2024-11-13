@@ -24,7 +24,7 @@ public class EmailService {
         values.put("registrationDate", registrationDate);
         values.put("companyName", "AwesomeCompany");
 
-        // Generate the email
+        // Generate the email using template engine
         return emailTemplateEngine.generateEmail(languageCode, values);
     }
 }
