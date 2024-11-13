@@ -1,0 +1,9 @@
+Objet : Bienvenue, ${userName} !
+
+Corps :
+Cher ${userName},
+
+Merci de vous être inscrit à notre service le ${registrationDate}. Nous sommes ravis de vous avoir parmi nous.
+
+Cordialement,
+L'équipe ${companyName}

@@ -1,0 +1,9 @@
+Subject: Welcome, ${userName}!
+
+Body:
+Dear ${userName},
+
+Thank you for registering with our service on ${registrationDate}. We are excited to have you on board.
+
+Best regards,
+The ${companyName} Team
