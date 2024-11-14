@@ -25,7 +25,7 @@ public class EmailTemplateEngine {
         String template = loadTemplate(languageCode);
 
         // Create a StrSubstitutor to perform the substitution
-        //StrSubstitutor substitutor = new StrSubstitutor(values);
+        StrSubstitutor substitutor2 = new StrSubstitutor(values);
         StringSubstitutor substitutor = new StringSubstitutor(values);
 
         // Replace placeholders in the template with the provided values
