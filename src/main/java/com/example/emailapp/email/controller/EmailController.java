@@ -18,7 +18,7 @@ public class EmailController {
     public EmailController(EmailService emailService) {
         this.emailService = emailService;
     }
-    //http://localhost:8080/generate-email?userName=JohnDoe&registrationDate=2024-11-12&languageCode=en
+    //http://localhost:8080/generate-email?userName=Sambit&registrationDate=2024-11-12&languageCode=en
     @GetMapping("/generate-email")
     public String generateEmail(@RequestParam String userName, @RequestParam String registrationDate, @RequestParam String languageCode) throws  IOException {
         return emailService.generateWelcomeEmail(userName, registrationDate, languageCode);

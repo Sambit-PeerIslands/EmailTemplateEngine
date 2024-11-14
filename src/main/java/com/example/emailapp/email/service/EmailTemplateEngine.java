@@ -1,6 +1,7 @@
 package com.example.emailapp.email.service;
 
 import org.apache.commons.lang3.text.StrSubstitutor;
+import org.apache.commons.text.StringSubstitutor;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -24,7 +25,8 @@ public class EmailTemplateEngine {
         String template = loadTemplate(languageCode);
 
         // Create a StrSubstitutor to perform the substitution
-        StrSubstitutor substitutor = new StrSubstitutor(values);
+        //StrSubstitutor substitutor = new StrSubstitutor(values);
+        StringSubstitutor substitutor = new StringSubstitutor(values);
 
         // Replace placeholders in the template with the provided values
         return substitutor.replace(template);

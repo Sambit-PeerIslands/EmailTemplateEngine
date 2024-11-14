@@ -22,7 +22,7 @@ public class EmailService {
         Map<String, String> values = new HashMap<>();
         values.put("userName", userName);
         values.put("registrationDate", registrationDate);
-        values.put("companyName", "AwesomeCompany");
+        values.put("companyName", "PeerIslands");
 
         // Generate the email using template engine
         return emailTemplateEngine.generateEmail(languageCode, values);
